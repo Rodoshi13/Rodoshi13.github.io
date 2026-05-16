@@ -6,24 +6,32 @@
     <title>Zarrin Tasnim Rodoshi | Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-teal-500 selection:text-slate-950">
+<body class="bg-cover bg-center bg-no-repeat bg-fixed text-slate-100 font-sans antialiased selection:bg-teal-500 selection:text-slate-950 min-h-screen" 
+      style="background-image: linear-gradient(to bottom, rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.95)), url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1920&q=80');">
 
     <div class="max-w-3xl mx-auto px-6 py-16 sm:py-24">
         
-        <header class="mb-12">
-            <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
-                Hi There ! I am Zarrin Tasnim Rodoshi.
-            </h1>
-            <ul class="mt-6 space-y-3 text-base text-slate-300 leading-relaxed list-disc list-inside">
-                <li>I am a **CSE** (Computer Science & Engineering) graduate from <a href="https://www.bracu.ac.bd/" target="_blank" class="text-teal-400 hover:underline">BRAC University, Dhaka, Bangladesh</a>.</li>
-                <li>My main focus is Full-Stack Web Development, with a strong interest in Machine Learning, AI, and Bioinformatics research.</li>
-            </ul>
+        <header class="mb-12 flex flex-col sm:flex-row items-center gap-6 bg-slate-900/60 backdrop-blur-md p-6 rounded-2xl border border-slate-800">
+            <div class="w-24 h-24 sm:w-32 sm:h-32 rounded-full overflow-hidden border-4 border-teal-500 shadow-xl flex-shrink-0">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&h=300&q=80" 
+                     id="profile-img" 
+                     alt="Zarrin Tasnim Rodoshi" 
+                     class="w-full h-full object-cover">
+            </div>
+            
+            <div class="text-center sm:text-left">
+                <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
+                    Hi There ! I am Zarrin Tasnim Rodoshi.
+                </h1>
+                <ul class="mt-4 space-y-2 text-base text-slate-300 leading-relaxed list-disc list-inside">
+                    <li>I am a **CSE** (Computer Science & Engineering) graduate from <a href="https://www.bracu.ac.bd/" target="_blank" class="text-teal-400 hover:underline">BRAC University, Dhaka, Bangladesh</a>.</li>
+                    <li>I'm focused on Full-Stack Web Development, with a strong interest in Machine Learning, AI, and Bioinformatics research.</li>
+                </ul>
+            </div>
         </header>
 
-        <hr class="border-slate-800 my-10">
-
-        <section class="mb-12">
-            <h2 class="text-xl font-bold text-white mb-6 tracking-wide">Languages and Tech Stack</h2>
+        <section class="mb-12 bg-slate-900/60 backdrop-blur-md p-6 rounded-2xl border border-slate-800">
+            <h2 class="text-xl font-bold text-white mb-6 tracking-wide border-b border-slate-800 pb-2 text-teal-400">Languages and Tech Stack</h2>
             <div class="space-y-6">
                 
                 <div>
@@ -54,7 +62,7 @@
 
                 <div>
                     <h3 class="text-sm font-semibold text-slate-400 mb-2">Machine Learning & Data Science:</h3>
-                    <div class="flex flex-wrap gap-2 items-center mb-1">
+                    <div class="flex flex-wrap gap-2 items-center mb-2">
                         <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas">
                         <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy">
                         <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="Scikit-learn">
@@ -62,7 +70,7 @@
                         <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white" alt="Keras">
                         <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow">
                     </div>
-                    <p class="text-sm text-slate-300 mt-1">Data Preprocessing, Feature Engineering, Model Evaluation.</p>
+                    <p class="text-sm text-slate-300">Data Preprocessing, Feature Engineering, Model Evaluation.</p>
                 </div>
 
                 <div>
@@ -87,10 +95,8 @@
             </div>
         </section>
 
-        <hr class="border-slate-800 my-10">
-
-        <section class="mb-12">
-            <h2 class="text-xl font-bold text-white mb-6 tracking-wide">Projects</h2>
+        <section class="mb-12 bg-slate-900/60 backdrop-blur-md p-6 rounded-2xl border border-slate-800">
+            <h2 class="text-xl font-bold text-white mb-6 tracking-wide border-b border-slate-800 pb-2 text-teal-400">Projects</h2>
             <ul class="space-y-4 list-disc list-inside text-slate-300">
                 <li>
                     <a href="https://github.com/Rodoshi13/Food-Delivery-Website" target="_blank" class="text-teal-400 hover:underline font-medium">Food Ordering & Delivery Platform</a> 
@@ -119,10 +125,8 @@
             </ul>
         </section>
 
-        <hr class="border-slate-800 my-10">
-
-        <section class="mb-12">
-            <h2 class="text-xl font-bold text-white mb-6 tracking-wide">Research Work</h2>
+        <section class="mb-12 bg-slate-900/60 backdrop-blur-md p-6 rounded-2xl border border-slate-800">
+            <h2 class="text-xl font-bold text-white mb-6 tracking-wide border-b border-slate-800 pb-2 text-teal-400">Research Work</h2>
             <ul class="space-y-4 list-disc list-inside text-slate-300">
                 <li class="leading-relaxed">
                     <a href="https://github.com/Rodoshi13/Pathway-Aware-Maked-Model---PAMM" target="_blank" class="text-teal-400 hover:underline font-medium">Pathway-Aware Masked Model (PAMM) for Multi-Cancer Prediction</a> 
@@ -131,10 +135,8 @@
             </ul>
         </section>
 
-        <hr class="border-slate-800 my-10">
-
-        <section class="mb-12">
-            <h2 class="text-xl font-bold text-white mb-6 tracking-wide">Interests</h2>
+        <section class="mb-12 bg-slate-900/60 backdrop-blur-md p-6 rounded-2xl border border-slate-800">
+            <h2 class="text-xl font-bold text-white mb-6 tracking-wide border-b border-slate-800 pb-2 text-teal-400">Interests</h2>
             <ul class="space-y-2 list-disc list-inside text-slate-300">
                 <li>Full Stack Web Development</li>
                 <li>Machine Learning & Artificial Intelligence</li>
@@ -143,10 +145,8 @@
             </ul>
         </section>
 
-        <hr class="border-slate-800 my-10">
-
-        <section>
-            <h2 class="text-xl font-bold text-white mb-6 tracking-wide">Contact & Socials</h2>
+        <section class="bg-slate-900/60 backdrop-blur-md p-6 rounded-2xl border border-slate-800">
+            <h2 class="text-xl font-bold text-white mb-6 tracking-wide border-b border-slate-800 pb-2 text-teal-400">Contact & Socials</h2>
             <div class="flex flex-wrap gap-3">
                 <a href="https://www.linkedin.com/in/zarrin-tasnim-rodoshi-6473333b5" target="_blank" class="hover:opacity-85 transition">
                     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
@@ -157,7 +157,7 @@
             </div>
         </section>
 
-        <footer class="mt-24 pt-8 border-t border-slate-900 text-center text-xs text-slate-600">
+        <footer class="mt-16 text-center text-xs text-slate-500">
             <p>&copy; 2026 Zarrin Tasnim Rodoshi. Built using Tailwind CSS.</p>
         </footer>
 
